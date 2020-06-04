@@ -4,11 +4,13 @@ public class TrangThaiHocSinhDiemDanh {
     private String nameStudent;
     private String dateOfBirthStudent;
     int statusTakeStudent;
+    private String maUID;
 
-    public TrangThaiHocSinhDiemDanh(String nameStudent, String dateOfBirthStudent, int statusTakeStudent) {
+    public TrangThaiHocSinhDiemDanh(String nameStudent, String dateOfBirthStudent, int statusTakeStudent, String maUID) {
         this.nameStudent = nameStudent;
         this.dateOfBirthStudent = dateOfBirthStudent;
         this.statusTakeStudent = statusTakeStudent;
+        this.maUID = maUID;
     }
 
     public String getNameStudent() {
@@ -33,5 +35,13 @@ public class TrangThaiHocSinhDiemDanh {
 
     public void setStatusTakeStudent(int statusTakeStudent) {
         this.statusTakeStudent = statusTakeStudent;
+    }
+
+    public String getMaUID() {
+        return maUID;
+    }
+
+    public void setMaUID(String maUID) {
+        this.maUID = maUID;
     }
 }

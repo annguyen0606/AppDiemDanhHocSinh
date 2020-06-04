@@ -26,7 +26,7 @@ public class FirebaseManager extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         mcontext = context;
-        MainActivity.mData.child("DuLieuDiemDanh").addValueEventListener(new ValueEventListener() {
+        /*MainActivity.mData.child("DuLieuDiemDanh").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 Intent i = new Intent(mcontext, MainActivity.class);
@@ -43,7 +43,7 @@ public class FirebaseManager extends BroadcastReceiver {
         });
         firebaseThread = new FirebaseThread();
         firebaseThread.start();
-        NotifiManager.createChanel(context,NOTIFY_ID,"Co Data", NotificationManager.IMPORTANCE_DEFAULT);
+        NotifiManager.createChanel(context,NOTIFY_ID,"Co Data", NotificationManager.IMPORTANCE_DEFAULT);*/
     }
 
     static public void startMe(Context context){

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "701812565944",
+    "firebase_url": "https://annguyenhoctap.firebaseio.com",
+    "project_id": "annguyenhoctap",
+    "storage_bucket": "annguyenhoctap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701812565944:android:87c50ff39f0d5089b7d14d",
+        "android_client_info": {
+          "package_name": "com.annguyen.diemdanhhocsinh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701812565944-g4rk7juonubi02l0ebe7ugh7v5slb25o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnPEvGfEW5Tdx1LyXVN50A9LSdYIXCEVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701812565944-g4rk7juonubi02l0ebe7ugh7v5slb25o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
